@@ -80,16 +80,15 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
-              <Nav.Link
-                href="https://drive.google.com/file/d/YOUR_RESUME_FILE_ID/view"
-                target="_blank"
-                rel="noreferrer"
-                onClick={() => updateExpanded(false)}
-              >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
-              </Nav.Link>
-            </Nav.Item>
+          <Nav.Item>
+            <Nav.Link
+              as={Link}
+              to="/resume"
+              onClick={() => updateExpanded(false)}
+            >
+              <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+            </Nav.Link>
+          </Nav.Item>
 
             <Nav.Item className="fork-btn">
               <Button
