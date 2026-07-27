@@ -24,7 +24,7 @@ function Home2() {
                   SQL, C#, Python, PySpark and Spark SQL{" "}
                 </b>
               </i>
-              , and I work comfortably across the full data lifecycle — from ingestion and transformation to the reporting and analytics layers that business teams depend on.
+              , and I work comfortably across the full data lifecycle, from ingestion and transformation to the reporting and analytics layers that business teams depend on.
               <br />
               <br />
               My key areas of interest include building
