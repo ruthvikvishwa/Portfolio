@@ -133,7 +133,7 @@ function Nav() {
   return (
     <nav className={`nav ${scrolled ? "scrolled" : ""}`}>
       <div className="container nav-inner">
-        <a href="#" className="nav-logo">
+        <a href="#hero" className="nav-logo">
           ruthvik<span>.</span>
         </a>
         <button
